@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="click" href="click.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>ถึง กัส</strong>
+                        <p>
+                            กัสคับ พี่รักหนูนะแต่ในใจพี่ตอนนี้มันไม่ค่อยมั่นใจเลย ว่าพี่จะขอคืนดีกลับมาคบกันเหมือนเดิมได้มั้ยนะไม่มั่นใจในทุกๆเรื่องๆเลยพี่ขอโทษนะ พี่เสียใจมากๆไม่เคยเสียใจแบบนี้จริงๆ
+                            ไม่รู้ว่าต้องทำอะไรเพื่อลบความรู้สึกนั้นออกไป
+                            พี่รักกัสมากตั้งแต่กัสบอกตัวเองว่าโสด พี่เริ่มไม่มั่นใจเลยว่ากัสคุยกับใครบ้าง ไปไหนหาใครบ้าง บอกตัวเองว่าเชื่อใจก็พอ ไม่รู้จะพิมอะไรเพิ่มเติมพี่เสียใจจริงๆ มันเป็นแผลในใจไปแล้ว พี่เกลียดตัวเองพี่ไม่รักตัวเองแล้วตอนนี้ พี่ขอโทษนะกัสที่ไม่รักตัวเองแต่พี่รักกัสนะ
+                            อยากให้เราทั้งคู่กลับมาคบกันเหมือนเดิมจริงๆ
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="heart"></div>
+        </div>
+    </div>
+    <a href="cus2.html" class="cta">
+        <span>อ่านจบแล้วกด</span>
+        <svg width="13px" height="10px" viewBox="0 0 13 10">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
+      </a>
+    
+</body>
+
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
+</html>
